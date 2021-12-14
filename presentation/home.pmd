@@ -1,0 +1,50 @@
+{
+  "id": "home",
+  "presentation": {
+    "title": {
+      "type": "title",
+      "label": "Conflict Of Interest Dashboard"
+    },
+    "tabs":[
+      {
+          "type":"section",
+          "label":"My Forms",
+          "children":[
+            {
+              "type":"button",
+              "action":"PRIMARY",
+              "label":"Create New Form",
+              "taskReference":{
+                "taskId":"CreateNewForm"
+              }
+            }
+          ]
+      },
+      {
+        "type":"section",
+        "label":"My Team Forms",
+        "children":[
+          {
+            "type":"button",
+            "action":"PRIMARY",
+            "label":"Create New Form 2",
+            "taskReference":{
+              "taskId":"CreateNewForm"
+            }
+          }
+        ]
+      }
+    ],
+    "body": {
+      "type": "section",
+      "horizontal": false,
+      "children": [
+        {
+          "type": "richText",
+          "id": "hello",
+          "value": "Welcome to Conflict of Interest Dashboard. This Dashboard allows you to submit Conflict OF Interest forms and view forms submitted by your direct reportees."
+        }
+        ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "conflictOfInterestSDV1_vvkjnn",
+  "languages": [
+    {
+      "code": "en-US",
+      "description": "English"
+    }
+  ],
+  "siteAuth": {
+    "authTypes": [
+      {
+        "id": "sso",
+        "scheme": "SSO"
+      }
+    ]
+  },
+  "siteId": "conflictOfInterestSDV1_vvkjnn",
+  "cdnEnabled": true,
+  "siteProperties": [ ],
+  "applicationId": "conflictOfInterestSDV1_vvkjnn"
+}

@@ -1,0 +1,86 @@
+{
+  "id": 1,
+  "name": "SDCOISurvey",
+  "label": "SD COI Survey",
+  "defaultSecurityDomains": [
+    "COIFormData"
+  ],
+  "defaultCollection": {
+    "name": "sDCOISurveys",
+    "label": "SD COI Surveys"
+  },
+  "fields": [
+    {
+      "id": 1,
+      "name": "creationDate",
+      "label": "Creation Date",
+      "type": "DATE",
+      "precision": "DAY"
+    },
+    {
+      "id": 2,
+      "name": "completionDate",
+      "label": "Completion Date",
+      "type": "DATE",
+      "precision": "DAY"
+    },
+    {
+      "id": 3,
+      "name": "completedBy",
+      "label": "Completed By",
+      "type": "SINGLE_INSTANCE",
+      "target": "WORKER",
+      "secureByTarget": true
+    },
+    {
+      "id": 4,
+      "name": "status",
+      "label": "Status",
+      "type": "TEXT"
+    },
+    {
+      "id": 5,
+      "name": "timeConflict",
+      "label": "Time Conflict",
+      "type": "BOOLEAN"
+    },
+    {
+      "id": 6,
+      "name": "businessConflict",
+      "label": "Business Conflict",
+      "type": "BOOLEAN"
+    },
+    {
+      "id": 7,
+      "name": "competetiveConflict",
+      "label": "Competitive Conflict",
+      "type": "BOOLEAN"
+    },
+    {
+      "id": 8,
+      "name": "familyConflict",
+      "label": "Family Conflict",
+      "type": "BOOLEAN"
+    },
+    {
+      "id": 9,
+      "name": "useOfVendors",
+      "label": "Use Of Vendors Conflict",
+      "type": "BOOLEAN"
+    },
+    {
+      "id": 10,
+      "name": "approvedBy",
+      "label": "Approved By",
+      "type": "SINGLE_INSTANCE",
+      "target": "WORKER"
+    },
+    {
+      "id": 11,
+      "name": "secondApprovalBy",
+      "label": "Second Approval By",
+      "type": "SINGLE_INSTANCE",
+      "target": "WORKER"
+    }
+  ]
+}

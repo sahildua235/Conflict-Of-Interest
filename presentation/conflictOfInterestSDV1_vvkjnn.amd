@@ -1,0 +1,20 @@
+{
+  "appProperties": [ ],
+  "tasks": [
+    {
+      "id": "root",
+      "routingPattern": "/",
+      "page": {
+        "id": "home"
+      }
+    },
+    {
+      "id": "CreateNewForm",
+      "routingPattern": "CreateNewForm",
+      "page": {
+        "id": "CreateNewForm"
+      }
+    }
+  ],
+  "applicationId": "conflictOfInterestSDV1_vvkjnn"
+}

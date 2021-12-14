@@ -1,0 +1,52 @@
+{
+  "id": 2,
+  "name": "SDQuestionnaire1",
+  "label": "SD Questionnaire1",
+  "defaultSecurityDomains": [
+    "COIFormData"
+  ],
+  "defaultCollection": {
+    "name": "sDQuestionnaire1s",
+    "label": "SD Questionnaire1s"
+  },
+  "fields": [
+    {
+      "id": 1,
+      "name": "surveyID",
+      "label": "Survey ID",
+      "type": "SINGLE_INSTANCE",
+      "target": "SDCOISurvey"
+    },
+    {
+      "id": 2,
+      "name": "workerID",
+      "label": "Worker ID",
+      "type": "SINGLE_INSTANCE",
+      "target": "WORKER"
+    },
+    {
+      "id": 3,
+      "name": "businessName",
+      "label": "Business Name",
+      "type": "TEXT"
+    },
+    {
+      "id": 4,
+      "name": "jobFunction",
+      "label": "Job Function",
+      "type": "TEXT"
+    },
+    {
+      "id": 5,
+      "name": "normalHours",
+      "label": "Normal Hours",
+      "type": "TEXT"
+    },
+    {
+      "id": 6,
+      "name": "comments",
+      "label": "Comments",
+      "type": "TEXT"
+    }
+  ]
+}

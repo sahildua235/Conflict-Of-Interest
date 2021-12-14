@@ -1,0 +1,58 @@
+{
+  "id": 3,
+  "name": "Questionnaire4",
+  "label": "My Business Object",
+  "defaultSecurityDomains": [
+    "COIFormData"
+  ],
+  "defaultCollection": {
+    "name": "myBoCollection",
+    "label": "My BO Collection"
+  },
+  "fields": [
+    {
+      "id": 1,
+      "name": "surveyID",
+      "label": "Survey ID",
+      "type": "SINGLE_INSTANCE",
+      "target": "SDCOISurvey"
+    },
+    {
+      "id": 2,
+      "name": "workerID",
+      "label": "Worker ID",
+      "type": "SINGLE_INSTANCE",
+      "target": "WORKER"
+    },
+    {
+      "id": 3,
+      "name": "nameOfFamily",
+      "label": "Name Of Family",
+      "type": "TEXT"
+    },
+    {
+      "id": 4,
+      "name": "relationship",
+      "label": "Relationship",
+      "type": "TEXT"
+    },
+    {
+      "id": 5,
+      "name": "nameOfBusiness",
+      "label": "Name Of Business",
+      "type": "TEXT"
+    },
+    {
+      "id": 6,
+      "name": "jobTitle",
+      "label": "Job title",
+      "type": "TEXT"
+    },
+    {
+      "id": 7,
+      "name": "comments",
+      "label": "Comments",
+      "type": "TEXT"
+    }
+  ]
+}

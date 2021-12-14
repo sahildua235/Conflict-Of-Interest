@@ -1,0 +1,54 @@
+{
+  "id": "CreateNewForm",
+  "endPoints": [
+  ],
+  "outboundData": {
+    "outboundEndPoints": [
+    ]
+  },
+  "presentation": {
+    "headerSize": "VPS_DEFAULT",
+    "pageType": "edit",
+    "title": {
+      "type": "title",
+      "label": "Create New Conflict Of Interest",
+      "enabled": false
+    },
+    "body": {
+      "type": "section",
+      "horizontal": false,
+      "children": [
+        {
+          "type": "richText",
+          "id": "label1",
+          "value": "Conflict Of Interest and Outside Employment Disclosure Form"
+        },
+        {
+            "type":"section",
+            "horizontal":true,
+            "columnWidthRatios":[0.3,0.3,0.3],
+            "children":[
+              {
+                "type":"text",
+                "label":"Employee",
+                "value":"Sahil",
+                "enabled":false
+              },
+              {
+                "type":"text",
+                "label":"Supervisor",
+                "value":"Manager",
+                "enabled":false
+              },
+              {
+                "type":"text",
+                "label":"Date",
+                "value":"11/11/2021",
+                "enabled":false
+              }
+            ]
+        }
+      ]
+    }
+  }
+}
